@@ -1,0 +1,18 @@
+input NewLink {
+  title: String!
+  address: String!
+}
+
+input NewUser {
+  username: String!
+  password: String!
+}
+
+input Login {
+  username: String!
+  password: String
+}
+
+input RefreshTokenInput {
+  token: String
+}
